@@ -13,3 +13,5 @@ Usage Instructions:![image](https://github.com/user-attachments/assets/bc09b795-
 	g. Run VideoAnalyzer, click the select file button to choose the same video file, and click the set ROI button to select the ROI (it is recommended to choose the position of the LED light source as the ROI). Click the export data button to output the data, where the blueData variable represents the frame-by-frame data of the light source intensity changes.
 	h. Open the results output by VideoAnalyzer and the corresponding final_convex_results file simultaneously, then run main5_1_restrict1_video_ana. Adjust the parameters of the findpeak function to filter the peaks of the light. You can adjust the range of the slot0.eye_area variable to control the time interval of the trace.
 	i. Run main6_save_output and main7_1_output_read to obtain the duration of each mouse eye-closing event within the corresponding trace interval time period.
+
+contact the author through liuzhen1[AT]shanghaitech.edu.cn
